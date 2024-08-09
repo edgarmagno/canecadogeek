@@ -2,17 +2,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #021526;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
 header {
-    background-image: url('https://lirp.cdn-website.com/fb21f8a1/dms3rep/multi/opt/BT+Manaus+Area+Interna+%288%29-1920w.jpg');
+    background-image: url("img/head.png");
     background-size: cover;
     background-position: center;
-    height: 150px;
+    height: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,14 +26,13 @@ header h1 {
 }
 
 .logo {
-    width: 180px;
+    width: 150px;
     background-size: cover;
-    height: 70px;
+    border-radius: 50%;
     background-color: white;
-    margin: 50px 0;
-    margin-bottom: -70px;
-    padding: 10px;
-    border-radius: 20px;
+    margin: 0px 0;
+    margin-bottom: -90px;
+    padding: 5px;
 }
 
 main {
@@ -48,10 +47,11 @@ main {
     padding: 0;
 }
 
+
 .info-links li {
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: #052a4b;
     margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
@@ -59,9 +59,9 @@ main {
 }
 
 .info-links img {
-    width: 70px;
-    height: 70px;
-    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
     margin-right: 15px;
 }
 
@@ -72,7 +72,7 @@ main {
 
 .info-links a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
     font-size: 1.4rem;
 }
 
@@ -84,12 +84,13 @@ main {
 
 .contact-buttons {
     display: flex;
+    height: 70px;
     justify-content: center;
     margin-top: 20px;
 }
 
 .contact-buttons button {
-    background-color: #007BFF;
+    background-color: #359708;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -108,11 +109,11 @@ main {
 }
 
 .contact-buttons button:hover {
-    background-color: #0056b3;
+    background-color: #235f07;
 }
 
 footer {
-    background-color: rgba(12,38,98,1);
+    background-color: #F2A803;
     color: white;
     width: 100%;
     height: 20px;
